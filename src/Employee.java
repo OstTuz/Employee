@@ -11,6 +11,9 @@ public class Employee {
         this.salary = salary;
     }
 
-
+    public void Display()
+    {
+        System.out.println(this.name +" "+this.id+" "+this.salary+"$");
+    }
 
 }
