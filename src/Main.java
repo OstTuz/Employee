@@ -2,6 +2,6 @@ public class Main {
 
     public static void main(String[] args)
     {
-        System.out.println("Hello its me");
+        Employee employee = new Employee("James", 1234, 2000);
     }
 }
