@@ -15,5 +15,9 @@ public class Employee {
     {
         System.out.println(this.name +" "+this.id+" "+this.salary+"$");
     }
+    
+    public void Counter(){
+        this.salary = this.salary+1000.0;
+    }
 
 }
