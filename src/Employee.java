@@ -11,13 +11,19 @@ public class Employee {
         this.salary = salary;
     }
 
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", salary=" + salary +
+                '}';
+    }
+
     public void Display()
     {
         System.out.println(this.name +" "+this.id+" "+this.salary+"$");
     }
-    
-    public void Counter(){
-        this.salary = this.salary+1000.0;
-    }
+
 
 }
